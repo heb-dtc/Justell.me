@@ -13,7 +13,9 @@ a { color: #fff;text-decoration: none; }
 
 
 .bodydesktop{
-	background-color:#26242F;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
 	padding:0;
 	margin:0;
 	height:100%;
