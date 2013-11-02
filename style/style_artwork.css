@@ -1,0 +1,29 @@
+.wrapper {
+  width : 320px;
+  margin: 75px auto 0 auto;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  font-size: 0.9em;
+}
+
+
+.upload {
+  padding: 30px;
+  position: relative;
+}
+
+.success {
+  position: absolute;
+  top: 30px;
+  opacity:0;
+  display:none;
+  color:#44E364;
+}
+
+.error {
+  position: absolute;
+  top: 30px;
+  opacity:0;
+  display:none;
+  color:#E34444;
+}

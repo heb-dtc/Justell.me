@@ -1,0 +1,45 @@
+.info {
+  padding-bottom: 20px;
+}
+
+.stickers {
+  padding: 20px 0 0 0;
+}
+
+img.centered {
+  padding: 70px 0 0;
+}
+
+.error {
+  font-size: 1.5em;
+}
+
+.c1 {
+  color: #ec008c;
+}
+
+.c2 {
+  color: #fff200;
+}
+
+.c3 {
+  color: #d2232a;
+}
+
+.c4 {
+  color: #40ae49;
+}
+
+.c5 {
+  color: #23408f;
+}
+
+.c6 {
+  color: #44b1e4;
+}
+
+/*a {
+  color: #44B0E4;
+  text-decoration: none;
+  border-bottom: 1px dashed #44B0E4;
+}*/

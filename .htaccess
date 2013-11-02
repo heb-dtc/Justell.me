@@ -1,0 +1,11 @@
+DirectoryIndex index.php index.html
+SetEnv PHP_VER 4
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
