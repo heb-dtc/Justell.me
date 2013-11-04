@@ -11,7 +11,9 @@ function html_head($section) {
             <meta charset="utf-8">
               <link href="http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet" type="text/css">
               <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-			  <link href="http://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
+						  <link href="http://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
+							<link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
+							<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_common.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />
               <link rel="icon" type="image/png" href="http://justell.me/favicon/1.png" />
@@ -28,14 +30,7 @@ function html_foot($section, $mobile = false,  $map = false) {
       return '';
     }
     
-    echo '  <div class="menufooter With_Font_Menu">
-              <span class="textmenufooter">
-              <a href="/"        class="customlink '.underline($section,'index').'">Home</a>&nbsp;/&nbsp;
-              <a href="/map"     class="customlink '.underline($section,'map').'">Sticker Map</a>&nbsp;/&nbsp;
-              <a href="/artwork" class="customlink '.underline($section,'artwork').'">Artwork</a>&nbsp;/&nbsp;
-              <a href="/info"    class="customlink '.underline($section,'info').'">Info</a>&nbsp;/&nbsp;
-              <a href="http://prjctcld.com" class="customlink '.underline($section,'cloud').'" target="_blank">Project Cloud</a></span>
-            </div>';
+
   }
   echo '  <script type="text/javascript" src="script/jquery.js"></script>';
   if($map) {

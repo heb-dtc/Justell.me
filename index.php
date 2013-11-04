@@ -34,7 +34,7 @@
     </div>';
   } else {
     echo '<body class="bodydesktop">
-			<div class="update">
+			<div class="update" id="updt">
       </div>
       <script type="text/javascript">window.fetch = true;</script>';
   }

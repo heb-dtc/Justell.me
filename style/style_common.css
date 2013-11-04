@@ -11,7 +11,6 @@ a { color: #fff;text-decoration: none; }
 	width:100%;
 }
 
-
 .bodydesktop{
 	background-image: url('../img/bg.jpg');
 	background-repeat: no-repeat;
@@ -80,7 +79,6 @@ textarea:focus, input:focus{
   min-height: 12%;
 }
 
-
 .middle{
   width:100%;
   padding: 10px 0;
@@ -96,7 +94,7 @@ textarea:focus, input:focus{
 .button{ 
 	width:60%;
 	-webkit-appearance: none;
-    border-radius: 0;
+  border-radius: 0;
 	border-color:#a7d77b;
 	border-width:3px;
 	font-family: "Permanent Marker";
@@ -112,22 +110,25 @@ textarea:focus, input:focus{
 .textbox{
 	word-spacing: normal;
 	letter-spacing: 1px;
+  text-transform:uppercase;
 	-webkit-text-size-adjust:none;
 	word-wrap: break-word;
 	font-size: 1.3em;
 }
 
+.wrapperText{
+}
+
 .textarea{
-  margin: 60px 0 60px 40px;
-  height: 80%;
-  position: fixed;
-  left: 20px;
-  right: -20px;
-  padding-right: 80px;
+  margin: 0px 200px 0px 200px;
+	padding: 20px 40px 20px 40px; 
+	background:rgba(0,0,0,0.7);
+  height: 70%;
+  position: relative;
   overflow-y: scroll;
   overflow-x: hidden;
   text-align: justify;
-  font-size: 1.4em;
+  font-size: 2.0em;
   line-height:1.7em;
 }
 
@@ -143,29 +144,55 @@ textarea:focus, input:focus{
 }
 
 .update{
-	position: fixed;	
+	position: relative;	
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
 }
 
-.menufooter{
-  position: absolute;
-  bottom: 30px;
-  margin-left: 60px;
+.fakepadding_top {
+	position: relative;
+	background:rgba(0,0,0,0.7);
+  margin-top: 70px;
+	margin-left: 200px;
+  margin-right: 200px;
+	height: 20px;
+}
+
+.fakepadding_bottom {
+	position: relative;
+	background:rgba(0,0,0,0.7);
+	margin-left: 200px;
+  margin-right: 200px;
+	height: 20px;
+}
+
+.menufooter {
+  position: relative;
+  text-transform:uppercase;
+  font-weight:bold;
+  margin: 10px 0px 0px 200px;
+	background:rgba(0,0,0,0);
 }
 
 .With_Font_Menu{
-  font-family: "Open Sans",sans-serif;
+  font-family: "Roboto";
 }
 
 .textmenufooter{
-	font-size: 0.9em;
+	font-size: 1.3em;
 	letter-spacing: 1px;
-	color: #fff;
+  background-color: #FFFFFF;
+  padding: 10px 40px 10px 40px;
+  color: #000000;
 }
 
 .underlined {
-  /*text-decoration: underline*/
+  
+}
+
+.customlink {
+	color: #000000;
 }
 
 .wrapper {
