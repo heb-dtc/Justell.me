@@ -82,7 +82,7 @@ $(document).ready( function() {
 			text += '</div>';
 
 			//wrapper for the text
-			//text += '<div class="wrapperText" id="wrptx">';
+			text += '<div class="wrapperText" id="wrptx">';
 
       text += '<div class="'+mob+'" id="txtarea">';
       for(i=0;i<l;i++) {
@@ -112,7 +112,7 @@ $(document).ready( function() {
       text += '</div>';
 			
 			//close wrapper text div
-			//text += '</div>';
+			text += '</div>';
 
 			//fake padding
       text += '<div class="fakepadding_bottom">';
@@ -130,8 +130,11 @@ $(document).ready( function() {
       $('.update').prepend(text);
 
 			//hide the nasty scrollbar
-			//var textareaWidth = document.getElementById("txtarea").scrollWidth;
-			//document.getElementById("updt").style.width = textareaWidth + "px";
+			var textareaWidth = document.getElementById("wrptx").scrollWidth;
+			console.debug(textareaWidth);
+			console.debug(document.getElementById("wrptx").style.width);
+			textareaWidth += 30;
+			//document.getElementById("wrptx").style.width = textareaWidth + "px";
       
     },
 	//---------------------------------------------------------//
