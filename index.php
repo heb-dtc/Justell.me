@@ -15,22 +15,23 @@
     // Generate the rest
     echo '<body class="bodymobile">
     <div class="wrapp">
+
       <div class="header">
-	  </br>
-        <input class="namebox" id="pseudo" maxlength="25"  type="text" placeholder="What\'s your name?" />
-      </br>
-	  </br>
-	  </div>
+        <div class="headerTitle">
+          <span>NOW THAT YOU SCANNED ME </span> </br>
+          <span> TELL ME SOMETHING </span>
+        </div>
+        <textarea class="customInput" id="pseudo" rows="1" maxlength="25"  type="text" placeholder="Your name..." ></textarea>
+	    </div>
+
       <div class="middle">
-	  </br>
-	  </br>
-        <textarea class="messagebox" id="text" rows="7" maxlength="250" placeholder="Leave a message..." ></textarea>
-	  </div>
-	  </br>
-	  </br>
+        <textarea class="customInput" id="text" rows="5" maxlength="250" placeholder="Your message..." ></textarea>
+	    </div>
+      
       <div class="footer">
-			<input class="button" type="submit" value="Tell Me!" id="send" />
+			  <input class="button" type="submit" value="Tell Me!" id="send" />
       </div>
+
     </div>';
   } else {
     echo '<body class="bodydesktop">
