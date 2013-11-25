@@ -1,7 +1,5 @@
 $(document).ready( function() {
 
-  var geocoder = new google.maps.Geocoder();
-
   window.jtm = {
     //--------------------------------------------//
 	//                   UTILS 
@@ -72,19 +70,11 @@ $(document).ready( function() {
 	//----------------------------------------------------------------//
 	//         UPDATE --> DISPLAY MSG ON MOBILE DEVICE OR COMPUTER
 	//----------------------------------------------------------------//
-		update : function(obj,msg) {
-  		var p_X = -1;
+    update : function(obj,msg) {
+      var p_X = -1;
       var text='',i=0,l=obj.length;
       var mob = msg ? ' ta_mob' : 'textarea';
 
-			//fake padding
-      text += '<div class="fakepadding_top">';
-			text += '</div>';
-
-			//wrapper for the text
-			text += '<div class="wrapperText" id="wrptx">';
-
-      text += '<div class="'+mob+'" id="txtarea">';
       for(i=0;i<l;i++) {
         var x = Math.floor((Math.random()*55)+1);
       
@@ -100,42 +90,14 @@ $(document).ready( function() {
         }
         var message = obj[i].message.toUpperCase() + " - " + obj[i].pseudo + " in " + location + " ";
         
-			//timestamps are not displayed on mobile
-			if(!msg) {
+      //timestamps are not displayed on mobile
+      if(!msg) {
           message += this.format(obj[i].timestamp,'timestamp') + " ";
         }
         text += '<span class="' + couleur + '">' + message + '</span>';
       }
       
-      //text += msg||''; //add MSG if it exists, nothing otherwise...
-      //close div textarea
-      text += '</div>';
-			
-			//close wrapper text div
-			text += '</div>';
-
-			//fake padding
-      text += '<div class="fakepadding_bottom">';
-			text += '</div>';
-			//append the footer --> to be placed in another function!!
-			text += '<div class="menufooter With_Font_Menu">';
-      text += '<span class="textmenufooter">';
-      text += '<a href="/"        class="customlink \'.underline($section,\'index\').\'">Home</a>&nbsp;/&nbsp;';
-      text += '<a href="/map"     class="customlink \'.underline($section,\'map\').\'">Sticker Map</a>&nbsp;/&nbsp;';
-      text += '<a href="/artwork" class="customlink \'.underline($section,\'artwork\').\'">Artwork</a>&nbsp;/&nbsp;';
-      text += '<a href="/info"    class="customlink \'.underline($section,\'info\').\'">Info</a>&nbsp;/&nbsp;';
-      text += '<a href="http://prjctcld.com" class="customlink \'.underline($section,\'cloud\').\'" target="_blank">Project Cloud</a></span>';
-      text += '</div>';
-
-      $('.update').prepend(text);
-
-			//hide the nasty scrollbar
-			var textareaWidth = document.getElementById("wrptx").scrollWidth;
-			console.debug(textareaWidth);
-			console.debug(document.getElementById("wrptx").style.width);
-			textareaWidth += 30;
-			//document.getElementById("wrptx").style.width = textareaWidth + "px";
-      
+      $('.content').prepend(text);
     },
 	//---------------------------------------------------------//
 	//        LOCATE --> get localistion from mobile device

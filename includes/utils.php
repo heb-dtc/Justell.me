@@ -20,25 +20,54 @@ function html_head($section) {
           </head>';
 }
 
+function html_bodyUp($mobile = false) {
+  if(!$mobile){
+    echo '<body class="bodydesktop">
+      <div class="update" id="updt">
+        <div class="fakepadding_top"></div>
+        <div class="wrapperContent" id="wrpCtt">
+          <div class="content" id="ctt">';
+  }
+}
+
+function html_bodyDown(){
+  echo '</div>
+        </div>
+        <div class="fakepadding_bottom"></div>
+        <div class="menufooter With_Font_Menu">
+          <span class="textmenufooter">
+            <a href="/" class="customlink">Home</a>&nbsp;/&nbsp
+            <a href="/map" class="customlink">Sticker Map</a>&nbsp;/&nbsp
+            <a href="/artwork" class="customlink">Artwork</a>&nbsp;/&nbsp
+            <a href="/info" class="customlink">Info</a>&nbsp;/&nbsp
+            <a href="http://prjctcld.com" class="customlink" target="_blank">Project Cloud</a>
+          </span>
+          </div>
+      </div>';
+}
+
 function html_foot($section, $mobile = false,  $map = false) {
-  if(!$mobile) {
-  
+  if(!$mobile) {  
     function underline($section,$current) {
       if($section == $current) {
         return 'underlined';
       }
       return '';
     }
-    
-
   }
-  echo '  <script type="text/javascript" src="script/jquery.js"></script>';
+
+  //add JQuery and page scripts
+  echo '  <script type="text/javascript" src="script/jquery.js"></script>
+          <script type="text/javascript" src="script/app-'.$section.'.js"></script>';
+  
+  //add GMAP scripts if needed
   if($map) {
-    echo '<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true"></script>
-          <script type="text/javascript" src="script/gmap3.min.js"></script>';
-  } 
-  echo "  <script type=\"text/javascript\" src=\"script/app-".$section.".js\"></script>
-          <script type=\"text/javascript\">
+    echo "<script type=\"text/javascript\" src=\"http://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true\"></script>
+          <script type=\"text/javascript\" src=\"script/gmap3.min.js\"></script>"; 
+  }
+
+  //add Google Analytics and close body,html tags
+  echo " <script type=\"text/javascript\">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-39461066-1']);
             _gaq.push(['_trackPageview']);
@@ -48,7 +77,7 @@ function html_foot($section, $mobile = false,  $map = false) {
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
           </script>
-          </body>
+        </body>
         </html>";
 }
 
