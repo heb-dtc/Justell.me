@@ -107,7 +107,7 @@ $(document).ready( function() {
         text += '<span class="' + couleur + '">' + message + '</span>';
       }
       
-      text += msg||''; //add MSG if it exists, nothing otherwise...
+      //text += msg||''; //add MSG if it exists, nothing otherwise...
       //close div textarea
       text += '</div>';
 			

@@ -12,6 +12,70 @@ a { color: #fff;text-decoration: none; }
 	min-height:100%;
 }
 
+/* **********  PAGE TEMPLATE  ********** */
+
+.fakepadding_top {
+  position: relative;
+  background:rgba(0,0,0,0.7);
+  margin-top: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 20px;
+}
+
+.fakepadding_bottom {
+  position: relative;
+  background:rgba(0,0,0,0.7);
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 20px;
+}
+
+.wrapperContent{
+  height: 70%;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-left: 200px;
+  margin-right: 200px;
+  background:rgba(0,0,0,0.7);
+}
+
+.content{
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 30px; 
+  overflow: auto;
+  width: 98%;
+  text-align: justify;
+  font-size: 2.0em;
+  line-height:1.7em;
+}
+
+/* **********  PAGE MESSAGES(index) ********** */
+
+.wrapperText{
+  height: 70%;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.textarea{  
+  background:rgba(0,0,0,0.7);
+  margin: 0px 200px 0px 200px;
+  padding: 20px 40px 20px 40px; 
+  overflow: auto;
+  text-align: justify;
+  font-size: 2.0em;
+  line-height:1.7em;
+}
+
+/*scrollbar
+::-webkit-scrollbar{
+  width:1px;
+} */
+
 /* **********************  MOBILE PHONE STYLE ********************** */
 
 .bodymobile {
@@ -113,23 +177,6 @@ textarea:focus, input:focus{
 	font-size: 1.3em;
 }
 
-.wrapperText{
-  height: 70%;
-	position: relative;
-	overflow-y: scroll;
-	overflow-x: hidden;
-}
-
-.textarea{  
-	background:rgba(0,0,0,0.7);
-	margin: 0px 200px 0px 200px;
-	padding: 20px 40px 20px 40px; 
-	overflow: auto;
-  text-align: justify;
-  font-size: 2.0em;
-  line-height:1.7em;
-}
-
 .ta_mob {
   text-align: justify;
   font-family: "Open Sans",sans-serif;
@@ -146,23 +193,6 @@ textarea:focus, input:focus{
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-}
-
-.fakepadding_top {
-	position: relative;
-	background:rgba(0,0,0,0.7);
-  margin-top: 70px;
-	margin-left: 200px;
-  margin-right: 200px;
-	height: 20px;
-}
-
-.fakepadding_bottom {
-	position: relative;
-	background:rgba(0,0,0,0.7);
-	margin-left: 200px;
-  margin-right: 200px;
-	height: 20px;
 }
 
 .menufooter {
