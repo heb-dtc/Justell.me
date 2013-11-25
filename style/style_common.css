@@ -1,6 +1,5 @@
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
-#map_canvas { height: 70%; width: 80%; margin: 70px 200px 0px 200px;}
 a { color: #fff;text-decoration: none; }
 
 /* **********************  COMPUTER STYLE ********************** */
@@ -13,6 +12,13 @@ a { color: #fff;text-decoration: none; }
 }
 
 /* **********  PAGE TEMPLATE  ********** */
+
+.update{
+  position: relative; 
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 
 .fakepadding_top {
   position: relative;
@@ -52,7 +58,7 @@ a { color: #fff;text-decoration: none; }
   line-height:1.7em;
 }
 
-/* **********  PAGE MESSAGES(index) ********** */
+/***********  PAGE MESSAGES(index) ********** */
 
 .wrapperText{
   height: 70%;
@@ -69,6 +75,13 @@ a { color: #fff;text-decoration: none; }
   text-align: justify;
   font-size: 2.0em;
   line-height:1.7em;
+}
+
+/* **********  PAGE MAP ********** */
+
+#map_canvas { 
+  height: 100%; 
+  width: 100%;
 }
 
 /* **********************  MOBILE PHONE STYLE ********************** */
@@ -181,13 +194,6 @@ textarea:focus, input:focus{
   background-color:#26242F;
   line-height:1.3em;
   font-size: 1.1em;
-}
-
-.update{
-	position: relative;	
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
 }
 
 .menufooter {

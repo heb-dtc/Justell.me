@@ -19,17 +19,21 @@
 
     //add the map
     echo '
-			<div id="map_canvas" class="update" ></div></div>';
-
-    //get messages from DB
-    include('fetch-text.php');
-    
-    //kick off JS
-    echo '
-        <script type="text/javascript">window.fetch = true;</script>';
+			<div id="map_canvas"></div>';
 
     //load templateDown
     html_bodyDown();
+    
+    //script JS putting DB results into var messages
+    echo '
+      <script type="text/javascript">window.messages = '; 
+
+    //fetch messages from DB
+    include('fetch-text.php');
+    
+    //kick off JS
+    echo '</script>
+        <script type="text/javascript">window.fetch = true;</script>';
   }
 
   //Include the bottom of the document, script & co
