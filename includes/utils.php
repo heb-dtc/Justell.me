@@ -80,5 +80,4 @@ function html_foot($section, $mobile = false,  $map = false) {
         </body>
         </html>";
 }
-
 ?>
