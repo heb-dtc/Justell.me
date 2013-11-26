@@ -31,8 +31,11 @@
               <div class="footer">
         			  <input class="button" type="submit" value="Tell Me!" id="send" />
               </div>
-
+                <div class="slider"><img src="../img/spinner.gif"></div>
             </div>';
+
+    //Include the bottom of the document, script & co
+    html_foot('mobile', $mob, true);
   } 
   else {
     //load templateUp
@@ -41,9 +44,9 @@
     html_bodyDown();
     //kick off the JS
     echo '<script type="text/javascript">window.fetch = true;</script>';
+
+
+    //Include the bottom of the document, script & co
+    html_foot('index', $mob, true);
   }
-  
-  //Include the bottom of the document, script & co
-  html_foot('index', $mob, true);
-  
 ?>
