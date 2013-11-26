@@ -7,6 +7,8 @@ $(document).ready( function() {
 	//               CLASS VARIABLES 
 	//--------------------------------------------//
   	mPlace : '',
+  	mName : '',
+  	mMsg : '',
   	mCoords : false,
   	//--------------------------------------------//
 	//          GET COORDINATES FUNCTION 
@@ -73,10 +75,10 @@ $(document).ready( function() {
       }
     
       $.post('add.php',{
-        pseudo  :jtm.mName,
-        message :jtm.mMsg,
-        location:place,
-        coords  :coords,
+        pseudo : jtm.mName,
+        message : jtm.mMsg,
+        location : place,
+        coords : coords,
         timestamp:new Date().getTime()
       }, function(data) {
         // Bring the user to /message
