@@ -58,23 +58,38 @@ a { color: #fff;text-decoration: none; }
   line-height:1.7em;
 }
 
-/***********  PAGE MESSAGES(index) ********** */
+/***********  MENU ********** */
 
-.wrapperText{
-  height: 70%;
+.menufooter {
   position: relative;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  text-transform:uppercase;
+  font-weight:bold;
+  margin: 10px 0px 0px 200px;
+  background:rgba(0,0,0,0);
 }
 
-.textarea{  
-  background:rgba(0,0,0,0.7);
-  margin: 0px 200px 0px 200px;
-  padding: 20px 40px 20px 40px; 
-  overflow: auto;
-  text-align: justify;
-  font-size: 2.0em;
-  line-height:1.7em;
+.With_Font_Menu{
+  font-family: "Roboto";
+}
+
+.textmenufooter{
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  background-color: #FFFFFF;
+  padding: 10px 40px 10px 40px;
+  color: #000000;
+}
+
+
+/***********  PAGE MESSAGES(index) ********** */
+
+.textbox{
+  word-spacing: normal;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+  -webkit-text-size-adjust:none;
+  word-wrap: break-word;
+  font-size: 1.3em;
 }
 
 /* **********  PAGE MAP ********** */
@@ -82,6 +97,32 @@ a { color: #fff;text-decoration: none; }
 #map_canvas { 
   height: 100%; 
   width: 100%;
+}
+
+/***********  PAGE INFO ********** */
+
+.info {
+  margin: 0 auto;
+  width: 50%;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #fff;
+  color : #44b0e4;
+  font-family: "Amatic SC";
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+.stickers {
+  padding: 75px 0 0 0;
+  color: #fff;
+  font-family: "Amatic SC";
+}
+
+.centered {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
 }
 
 /* **********************  MOBILE PHONE STYLE ********************** */
@@ -185,14 +226,7 @@ textarea:focus, input:focus{
 
 /* **********************  STUFF  ********************** */
 
-.textbox{
-	word-spacing: normal;
-	letter-spacing: 1px;
-  text-transform:uppercase;
-	-webkit-text-size-adjust:none;
-	word-wrap: break-word;
-	font-size: 1.3em;
-}
+
 
 .ta_mob {
   text-align: justify;
@@ -205,25 +239,6 @@ textarea:focus, input:focus{
   font-size: 1.1em;
 }
 
-.menufooter {
-  position: relative;
-  text-transform:uppercase;
-  font-weight:bold;
-  margin: 10px 0px 0px 200px;
-	background:rgba(0,0,0,0);
-}
-
-.With_Font_Menu{
-  font-family: "Roboto";
-}
-
-.textmenufooter{
-	font-size: 1.3em;
-	letter-spacing: 1px;
-  background-color: #FFFFFF;
-  padding: 10px 40px 10px 40px;
-  color: #000000;
-}
 
 .underlined {
   
@@ -241,36 +256,7 @@ textarea:focus, input:focus{
   font-size: 0.9em;
 }
 
-.info {
-  padding: 0 0 10px 0;
-  border-bottom: 1px solid #fff;
-  color : #44b0e4;
-  font-family: "Sue Ellen Francisco";
-  font-size: 1.5em;
-  line-height: 1.6em;
-}
-	
-
 .no-border {
   border: none;
   padding: 0 0 15px 0;
-}
-
-.stickers {
-  padding: 75px 0 0 0;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-}
-
-.centered {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  padding: 0 0 20px 0;
-}
-
-.info {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.4em;
-  line-height: 1.3em;
 }

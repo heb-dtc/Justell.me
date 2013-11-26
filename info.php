@@ -19,6 +19,7 @@
     html_bodyUp();
     
     echo '
+    <div class="centered">
       <div class="info">
         <span class="c1">Justell.me</span> <span class="c2">is</span> <span class="c3">an</span> <span class="c4">open</span> <span class="c5">sharing</span> <span class="c6">platform</span>
         <span class="c1">for</span> <span class="c2">free</span> <span class="c3">thinkers,</span> <span class="c4">dreamers,</span> <span class="c5">passers</span> <span class="c6">by</span>,
@@ -28,10 +29,10 @@
         <span class="c6">here</span> <span class="c1">for</span> <span class="c2">everyone!</span>
       </div>
       <div class="stickers">
-        <div class="centered">Share your tought with us at:<br/>
+          Share your tought with us at:<br/>
           <a href="mailto:info@justell.me">info@justell.me</a>
-        </div>
-      </div>';
+      </div>
+    </div>';
 
     //load templateDown
     html_bodyDown();
