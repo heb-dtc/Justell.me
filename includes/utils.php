@@ -9,9 +9,6 @@ function html_head($section) {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
             <meta charset="utf-8">
-              <link href="http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet" type="text/css">
-              <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-						  <link href="http://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
 							<link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
 							<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_common.css" />

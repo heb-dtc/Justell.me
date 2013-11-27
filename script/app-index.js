@@ -33,7 +33,7 @@ $(document).ready( function() {
       });
     },
   	//----------------------------------------------------------------//
-  	//         UPDATE --> DISPLAY MSG ON MOBILE DEVICE OR COMPUTER
+  	//         UPDATE --> DISPLAY MSG ON COMPUTER
   	//----------------------------------------------------------------//
     update : function(obj,msg) {
       var p_X = -1;

@@ -31,7 +31,7 @@
       foreach($image_files as $img){
         $ext = pathinfo($img, PATHINFO_EXTENSION);
         if(!in_array($img, $ignore) && in_array($ext, $valid_ext)) {
-          echo "<img src='$images_dir$img' /><br>";
+          echo "<img class=\"artwork\" src='$images_dir$img' />";
         }
       }
     }

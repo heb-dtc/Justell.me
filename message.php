@@ -8,24 +8,21 @@
   // Include top of the document
   html_head('message');
 
-  $mob = false;  
-  
-  if($detect->isMobile()) {
-    $mob = true;
-  }
-  
+  $mob = $detect->isMobile();  
+    
   if($mob || isset($_GET['m'])) {
     echo '<body class="bodymobile">
-          <div class="update">
-          </div>
-          <script type="text/javascript">window.fetch = true;</script>';
-  } else {
-    echo '<body class="bodydesktop">
-          <div class="update">
-          </div>
-          <script type="text/javascript">window.fetch = true;</script>';
+          <div class="update" id="updt">
+          </div>';
+
+    //Include the bottom of the document, script & co
+    html_foot('mobile', $mob, true);
+    
+    //kick off JS
+    echo '
+      <script type="text/javascript">window.fetch = true;</script>';
+  } 
+  else {
+    echo '';
   }
-  //Include the bottom of the document, script & co
-  html_foot('index', true, true);
-  
 ?>
