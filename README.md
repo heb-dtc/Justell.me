@@ -14,11 +14,16 @@ The website has been made using HTML5, CSS, JavaScript, PHP, MySql and Google Ma
 ---> index.php 
 		|------> desktop, display messages
 		|------> mobile, user inputs
+
 ---> artwork.php 
 		|------> desktop, display local images 
+
 ---> map.php 
 		|------> desktop, display message location on gmap
+
 ---> ingo.php 
 		|------> desktop, about
+
 ---> messages.php 
 		|------> mobile, display messages
+
