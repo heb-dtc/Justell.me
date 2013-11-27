@@ -164,7 +164,6 @@ $(document).ready( function() {
   	});
 
   if(window.fetch) {
-    print("bla");
     jtm.fetch();
   }
 });

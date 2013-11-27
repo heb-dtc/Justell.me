@@ -10,3 +10,15 @@ The website has been made using HTML5, CSS, JavaScript, PHP, MySql and Google Ma
 
 - When accessed from a computer, it displays a Wall of all the messages posted so far.
   It is also possible to visualize, on a map,  where the messages where posted.
+
+---> index.php 
+		|------> desktop, display messages
+		|------> mobile, user inputs
+---> artwork.php 
+		|------> desktop, display local images 
+---> map.php 
+		|------> desktop, display message location on gmap
+---> ingo.php 
+		|------> desktop, about
+---> messages.php 
+		|------> mobile, display messages
