@@ -24,16 +24,16 @@ a { color: #fff;text-decoration: none; }
   position: relative;
   background:rgba(0,0,0,0.7);
   margin-top: 70px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 130px;
+  margin-right: 130px;
   height: 20px;
 }
 
 .fakepadding_bottom {
   position: relative;
   background:rgba(0,0,0,0.7);
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 130px;
+  margin-right: 130px;
   height: 20px;
 }
 
@@ -42,8 +42,8 @@ a { color: #fff;text-decoration: none; }
   position: relative;
   overflow-y: hidden;
   overflow-x: hidden;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 130px;
+  margin-right: 130px;
   background:rgba(0,0,0,0.7);
 }
 
@@ -54,8 +54,8 @@ a { color: #fff;text-decoration: none; }
   overflow: auto;
   width: 98%;
   text-align: justify;
-  font-size: 2.0em;
-  line-height:1.7em;
+  font-size: 1.8em;
+  line-height:1.5em;
 }
 
 /***********  MENU ********** */
@@ -64,7 +64,7 @@ a { color: #fff;text-decoration: none; }
   position: relative;
   text-transform:uppercase;
   font-weight:bold;
-  margin: 10px 0px 0px 200px;
+  margin: 5px 0px 0px 130px;
   background:rgba(0,0,0,0);
 }
 
@@ -73,10 +73,11 @@ a { color: #fff;text-decoration: none; }
 }
 
 .textmenufooter{
-  font-size: 1.3em;
+  font-size: 1.1em;
+  font-weight: bold;
   letter-spacing: 1px;
   background-color: #FFFFFF;
-  padding: 10px 40px 10px 40px;
+  padding: 5px 40px 5px 40px;
   color: #000000;
 }
 

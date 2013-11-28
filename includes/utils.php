@@ -33,10 +33,10 @@ function html_bodyDown(){
         <div class="fakepadding_bottom"></div>
         <div class="menufooter With_Font_Menu">
           <span class="textmenufooter">
-            <a href="/" class="customlink">Home</a>&nbsp;/&nbsp
-            <a href="/map" class="customlink">Sticker Map</a>&nbsp;/&nbsp
-            <a href="/artwork" class="customlink">Artwork</a>&nbsp;/&nbsp
-            <a href="/info" class="customlink">Info</a>&nbsp;/&nbsp
+            <a href="/" class="customlink">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="/map" class="customlink">Sticker Map</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="/artwork" class="customlink">Artwork</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="/info" class="customlink">Info</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             <a href="http://prjctcld.com" class="customlink" target="_blank">Project Cloud</a>
           </span>
           </div>
