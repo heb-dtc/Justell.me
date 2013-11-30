@@ -57,7 +57,7 @@ $(document).ready( function() {
           
         //timestamps are not displayed on mobile
         if(!msg) {
-          message += this.format(obj[i].timestamp,'timestamp') + " ";
+          message += '<span class="date">' + this.format(obj[i].timestamp,'timestamp') + " " + '</span>';
         }
 
         text += '<span class="' + couleur + '">' + message + '</span>';

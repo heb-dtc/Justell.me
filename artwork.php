@@ -37,7 +37,7 @@
     else {
       echo '<div class="wrapperInfoText">
               <div class="infoText">
-                <p>There are no artwork (yet) in this gallery.</p>
+                <p>There is no artwork (yet) in this gallery.</p>
               </div>';
     }
 
