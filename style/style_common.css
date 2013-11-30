@@ -58,22 +58,31 @@ a { color: #fff;text-decoration: none; }
   line-height:1.5em;
 }
 
+.infoText{
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  font-family: "Amatic SC";
+  font-size: 1.5em;
+  line-height: 1.6em;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
 /***********  MENU ********** */
 
 .menufooter {
   position: relative;
   text-transform:uppercase;
-  font-weight:bold;
   margin: 5px 0px 0px 130px;
   background:rgba(0,0,0,0);
 }
 
-.With_Font_Menu{
-  font-family: "Roboto";
-}
-
 .textmenufooter{
-  font-size: 1.1em;
+  font-family: "Roboto";
+  font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 1px;
   background-color: #FFFFFF;
@@ -110,16 +119,10 @@ a { color: #fff;text-decoration: none; }
   width: 50%;
   padding: 0 0 10px 0;
   border-bottom: 1px solid #fff;
-  color : #44b0e4;
-  font-family: "Amatic SC";
-  font-size: 1.5em;
-  line-height: 1.6em;
 }
 
 .stickers {
   padding: 75px 0 0 0;
-  color: #fff;
-  font-family: "Amatic SC";
 }
 
 .centered {
@@ -127,6 +130,7 @@ a { color: #fff;text-decoration: none; }
   display: block;
   margin: 0 auto;
   padding: 0 0 20px 0;
+  height: 100%;
 }
 
 /***********  PAGE ARTWORKS ********** */

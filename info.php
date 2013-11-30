@@ -19,7 +19,7 @@
     html_bodyUp();
     
     echo '
-    <div class="centered">
+    <div class="infoText">
       <div class="info">
         <span class="c0">Justell.me is an open sharing platform for free thinkers, dreamers, passers by, stumblers, poets, adventurers, explorers, singers, shouters, countrymen and nomads. Justell.me is here for you, and you are here for everyone!</span>
       </div>

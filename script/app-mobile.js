@@ -120,7 +120,7 @@ $(document).ready( function() {
       var text='',i=0,l=obj.length;
 
       for(i=0;i<l;i++) {
-        var x = Math.floor((Math.random()*55)+1);
+        var x = Math.floor((Math.random()*19)+1);
         
         while( (p_X == x) ) {
           x = Math.floor((Math.random()*4)+1);

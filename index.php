@@ -31,7 +31,7 @@
               <div class="footer">
         			  <input class="button" type="submit" value="Tell Me!" id="send" />
               </div>
-                <div class="slider"><img src="../img/squares_loader_black.gif"></div>
+                <div class="slider"><img src="../img/loader3.gif"></div>
             </div>';
 
     //Include the bottom of the document, script & co

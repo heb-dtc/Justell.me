@@ -13,7 +13,7 @@ function html_head($section) {
 							<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_common.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />
-              <link rel="icon" type="image/png" href="./favicon/fav2.png" />
+              <link rel="icon" type="image/png" href="./favicon/fav3.png" />
           </head>';
 }
 
@@ -31,7 +31,7 @@ function html_bodyDown(){
   echo '</div>
         </div>
         <div class="fakepadding_bottom"></div>
-        <div class="menufooter With_Font_Menu">
+        <div class="menufooter">
           <span class="textmenufooter">
             <a href="/" class="customlink">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             <a href="/map" class="customlink">Sticker Map</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp

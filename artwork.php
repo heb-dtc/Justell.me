@@ -18,16 +18,15 @@
     //load templateUp
     html_bodyUp();
 
-    //echo '<p>SOON</p>';
-    echo '<div class="gallery">';
-
     //get the list of artworks and display them
     $images_dir = './uploads/';
     $image_files = scandir($images_dir);
     $ignore = Array(".", "..");
     $valid_ext = Array("jpg", "png", "gif");
     
-    if(count($image_files)) {
+    if(count($image_files) > 2) {
+      echo '<div class="gallery">';
+
       foreach($image_files as $img){
         $ext = pathinfo($img, PATHINFO_EXTENSION);
         if(!in_array($img, $ignore) && in_array($ext, $valid_ext)) {
@@ -36,7 +35,10 @@
       }
     }
     else {
-      echo '<p>There are no artwork in this gallery.</p>';
+      echo '<div class="wrapperInfoText">
+              <div class="infoText">
+                <p>There are no artwork (yet) in this gallery.</p>
+              </div>';
     }
 
     echo '</div>';

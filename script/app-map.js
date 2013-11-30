@@ -103,7 +103,7 @@ $(document).ready( function() {
         map:{
           options:{
             center: [lat||45, lng||0],
-            zoom: 2,
+            zoom: 3,
             mapTypeId: mapType,
             styles: mapStyle
           }
