@@ -13,7 +13,7 @@ function html_head($section) {
 							<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_common.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />
-              <link rel="icon" type="image/png" href="http://justell.me/favicon/1.png" />
+              <link rel="icon" type="image/png" href="./favicon/fav2.png" />
           </head>';
 }
 
