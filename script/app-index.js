@@ -41,7 +41,7 @@ $(document).ready( function() {
       var mob = msg ? ' ta_mob' : 'textarea';
 
       for(i=0;i<l;i++) {
-        var x = Math.floor((Math.random()*55)+1);
+        var x = Math.floor((Math.random()*9)+1);
         
         while( (p_X == x) ) {
           x = Math.floor((Math.random()*4)+1);

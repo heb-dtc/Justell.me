@@ -6,36 +6,39 @@
   font-family: "Sue Ellen Francisco";
 }
 
+/* Ten new colors */
 .Color_1{
-	color: #fef200;
+	color: #d480ff;
 }
 .Color_2{
-	color: #fe96a1;
+	color: #eaff80;
 }
 .Color_3{
-	color: #ffffb0;
+	color: #ffd480;
 }
 .Color_4{
-	color: #c995ff;
+	color: #ff9580;
 }
 .Color_5{
-	color: #5dffb0;
+	color: #ff80aa;
 }
 .Color_6{
-	color: #9abfcc;
+	color: #ff80ea;
 }
 .Color_7{
-	color: #f58020;
+	color: #9580ff;
 }
 .Color_8{
-	color: #f9c508;
+	color: #80aaff;
 }
 .Color_9{
-	color: #e568a5;
+	color: #aaff80;
 }
 .Color_10{
-	color: #b2d9a0;
+	color: #80ff9b;
 }
+
+
 .Color_11{
 	color: #85a5e0;
 }
