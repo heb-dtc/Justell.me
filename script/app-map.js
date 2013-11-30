@@ -71,7 +71,6 @@ $(document).ready( function() {
     var mapStyle = [{
         "featureType": "water",
         "stylers": [
-          { "color": "#26242F" },
           { "visibility": "on" }
         ]
       },{

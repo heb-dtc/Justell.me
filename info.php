@@ -21,12 +21,7 @@
     echo '
     <div class="centered">
       <div class="info">
-        <span class="c1">Justell.me</span> <span class="c2">is</span> <span class="c3">an</span> <span class="c4">open</span> <span class="c5">sharing</span> <span class="c6">platform</span>
-        <span class="c1">for</span> <span class="c2">free</span> <span class="c3">thinkers,</span> <span class="c4">dreamers,</span> <span class="c5">passers</span> <span class="c6">by</span>,
-        <span class="c1">stumblers,</span> <span class="c2">poets,</span> <span class="c3">adventurers,</span> <span class="c4">explorers,</span>
-        <span class="c5">singers,</span> <span class="c6">shouters,</span> <span class="c1">countrymen</span> <span class="c2">and</span> <span class="c3">nomads.</span>
-        <span class="c4">Justell.me</span> <span class="c5">is</span> <span class="c6">here</span> <span class="c1">for</span> <span class="c2">you,</span> <span class="c3">and</span> <span class="c4">you</span> <span class="c5">are</span>
-        <span class="c6">here</span> <span class="c1">for</span> <span class="c2">everyone!</span>
+        <span class="c0">Justell.me is an open sharing platform for free thinkers, dreamers, passers by, stumblers, poets, adventurers, explorers, singers, shouters, countrymen and nomads. Justell.me is here for you, and you are here for everyone!</span>
       </div>
       <div class="stickers">
           Share your tought with us at:<br/>
