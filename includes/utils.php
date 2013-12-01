@@ -28,6 +28,8 @@ function html_headMobile($section) {
             <meta charset="utf-8">
               <link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
               <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+              <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+              <link rel="stylesheet" href="style/style_mobile.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />
               <link rel="icon" type="image/png" href="./favicon/fav3.png" />
           </head>';
@@ -41,10 +43,17 @@ function html_bodyUp($mobile = false) {
         <div class="wrapperContent" id="wrpCtt">
           <div class="content" id="ctt">';
   }
+  else{
+    echo '<body class="body">
+      <div class="update" id="updt">
+        <div class="wrapperContent" id="wrpCtt">
+          <div class="content" id="ctt">';    
+  }
 }
 
-function html_bodyDown(){
-  echo '</div>
+function html_bodyDown($mobile = false){
+  if(!$mobile){
+    echo '</div>
         </div>
         <div class="fakepadding_bottom"></div>
         <div class="menufooter">
@@ -56,7 +65,13 @@ function html_bodyDown(){
             <a href="http://prjctcld.com" class="customlink" target="_blank">Project Cloud</a>
           </span>
           </div>
-      </div>';
+        </div>';
+  }
+  else{
+    echo '</div>
+        </div>
+        </div>';
+  }
 }
 
 function html_foot($section, $mobile = false,  $map = false) {

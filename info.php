@@ -24,8 +24,8 @@
         <span class="c0">Justell.me is an open sharing platform for free thinkers, dreamers, passers by, stumblers, poets, adventurers, explorers, singers, shouters, countrymen and nomads. Justell.me is here for you, and you are here for everyone!</span>
       </div>
       <div class="stickers">
-          Share your tought with us at:<br/>
-          <a href="mailto:info@justell.me">info@justell.me</a>
+          <p>Share your tought with us at:<br/>
+          <a href="mailto:info@justell.me">info@justell.me</a></p>
       </div>
     </div>';
 

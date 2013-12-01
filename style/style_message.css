@@ -1,197 +1,113 @@
-.With_Font_Box{
-  font-family: "Sue Ellen Francisco";
+.content{
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;  
+  padding-top: 10px; 
+  text-align: justify;
+  font-size: 1.2em;
 }
 
-.With_Font{
-  font-family: "Sue Ellen Francisco";
+.wrapperContent{
+  height: 100%;
+  position: relative;
+  background:rgba(0,0,0,0.5);
 }
 
+.update{
+	height: 100%;
+}
+
+.messageWall{
+	height: 50%;
+}
+
+.messageFoot{
+	height: 50%;
+	line-height:0.1em;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.textboxmobile{
+  word-spacing: normal;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+  -webkit-text-size-adjust:none;
+  word-wrap: break-word;
+  font-family: "Amatic SC";
+}
+
+.msgfooterA{
+	color: #FFFFFF;
+	font-family: "Abel";
+	font-size: 1.3em;
+}
+
+.msgfooterB{
+	color: #FFFFFF;
+	font-family: "Abel";
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+/* Twenty new colors */
 .Color_1{
-	color: #fef200;
+	color: #d480ff;
 }
 .Color_2{
-	color: #fe96a1;
+	color: #eaff80;
 }
 .Color_3{
-	color: #ffffb0;
+	color: #ffd480;
 }
 .Color_4{
-	color: #c995ff;
+	color: #ff9580;
 }
 .Color_5{
-	color: #5dffb0;
+	color: #ff80aa;
 }
 .Color_6{
-	color: #9abfcc;
+	color: #ff80ea;
 }
 .Color_7{
-	color: #f58020;
+	color: #9580ff;
 }
 .Color_8{
-	color: #f9c508;
+	color: #80aaff;
 }
 .Color_9{
-	color: #e568a5;
+	color: #aaff80;
 }
 .Color_10{
-	color: #b2d9a0;
+	color: #80ff9b;
 }
 .Color_11{
-	color: #85a5e0;
+	color: #ff5f5f;
 }
 .Color_12{
-	color: #a7d78d;
+	color: #ffc85f;
 }
 .Color_13{
-	color: #45d2e4;
+	color: #ff5f8c;
 }
 .Color_14{
-	color: #e89c7c;
+	color: #ce9fff;
 }
 .Color_15{
-	color: #fbad26;
+	color: #d098ff;
 }
 .Color_16{
-	color: #d95fd1;
+	color: #ffa798;
 }
 .Color_17{
-	color: #89ffac;
+	color: #ffbcdc;
 }
 .Color_18{
-	color: #7f3cff;
+	color: #bccdff;
 }
 .Color_19{
-	color: #35b664;
+	color: #fff5bc;
 }
 .Color_20{
-	color: #d0d0c4;
-}
-.Color_21{
-	color: #ff867b;
-}
-.Color_22{
-	color: #f37022;
-}
-.Color_23{
-	color: #ff00ff;
-}
-.Color_24{
-	color: #41ffd8;
-}
-.Color_25{
-	color: #7f6fff;
-}
-.Color_26{
-	color: #00964e;
-}
-.Color_27{
-	color: #0079e6;
-}
-.Color_28{
-	color: #ff96e0;
-}
-.Color_29{
-	color: #f04e37;
-}
-.Color_30{
-	color: #e80095;
-}
-.Color_31{
-	color: #9bffe3;
-}
-.Color_32{
-	color: #795ea5;
-}
-.Color_33{
-	color: #5de300;
-}
-.Color_34{
-	color: #0023ff;
-}
-.Color_35{
-	color: #cc022f;
-}
-.Color_36{
-	color: #ed1b24;
-}
-.Color_37{
-	color: #b81b8b;
-}
-.Color_38{
-	color: #00bfff;
-}
-.Color_39{
-	color: #ffd4da;
-}
-.Color_40{
-	color: #1fe29a;
-}
-.Color_41{
-	color: #81e4e8;
-}
-.Color_42{
-	color: #610d36;
-}
-.Color_43{
-	color: #bf2734;
-}
-.Color_44{
-	color: #6a2c90;
-}
-.Color_45{
-	color: #2099d6;
-}
-.Color_46{
-	color: #d8cab4;
-}
-.Color_47{
-	color: #008fa3;
-}
-.Color_48{
-	color: #56545c;
-}
-.Color_49{
-	color: #ffef97;
-}
-.Color_50{
-	color: #891319;
-}
-.Color_51{
-	color: #472d8f;
-}
-.Color_52{
-	color: #1969b0;
-}
-.Color_53{
-	color: #ffffff;
-}
-.Color_54{
-	color: #006a7b;
-}
-.Color_55{
-	color: #61ed37;
-}
-.Color_56{
-	color: #059457;
-}
-
-.textbox {
-    font-size: 1em;
-    letter-spacing: 1px;
-    word-spacing: normal;
-    word-wrap: break-word;
-}
-
-.textarea {
-  font-size: 1em;
-  height: 95%;
-  left: 10px;
-  line-height: 1.1em;
-  margin: 10px 0 10px 0px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  padding-right: 10px;
-  position: fixed;
-  right: -30px;
-  text-align: start;
+	color: #ffbcc7;
 }

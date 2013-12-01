@@ -119,6 +119,7 @@ $(document).ready( function() {
       var p_X = -1;
       var text='',i=0,l=obj.length;
 
+      text += '<div class="messageWall">';
       for(i=0;i<l;i++) {
         var x = Math.floor((Math.random()*19)+1);
         
@@ -135,8 +136,14 @@ $(document).ready( function() {
         var message = obj[i].message.toUpperCase() + " - " + obj[i].pseudo + " in " + location + " ";
         text += '<span class="' + couleur + '">' + message + '</span>';
       }
-        
-      $('.update').append(text);
+      text += '</div">';
+      
+      text += '<div class="messageFoot">';
+      //add footer
+      text += '<p class="msgfooterA"> see more at </p><p class="msgfooterB"> justell.me </p>';
+      text += '</div">';
+      
+      $('.content').prepend(text);
     }
 	};
   	//--------------------------------------------//
