@@ -1,4 +1,4 @@
-html { height: 100%; background-size:cover; background:url('../img/bg.jpg') no-repeat center center; }
+html { height: 100%; }
 body { height: 100%; margin: 0; padding: 0; }
 a { color: #fff;text-decoration: none; }
 
@@ -9,6 +9,7 @@ a { color: #fff;text-decoration: none; }
 	background-repeat: no-repeat;
 	background-size: 100%;
 	min-height:100%;
+  font-size: 100%;
 }
 
 /* **********  PAGE TEMPLATE  ********** */
@@ -63,8 +64,7 @@ a { color: #fff;text-decoration: none; }
   width: 50%;
   height: 50%;
   font-family: "Amatic SC";
-  font-size: 1.5em;
-  line-height: 1.6em;
+  font-size: 1em;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -127,9 +127,7 @@ a { color: #fff;text-decoration: none; }
 
 .stickers {
   padding: 75px 0 0 0;
-  font-size: 0.6em;
-  line-height: 1.1em;
-
+  font-size: 0.9em;
 }
 
 /***********  PAGE ARTWORKS ********** */
@@ -140,14 +138,13 @@ a { color: #fff;text-decoration: none; }
 
 .artwork{
   margin: 5px 5px 5px 5px;
-  max-width:100%;
-  max-height:100%;
+  width: 400px;
+  height: 400px%;
 }
 
 /* **********************  MOBILE PHONE STYLE ********************** */
 
 .bodymobile {
-  
   border:0;
   min-height:100%;
 }

@@ -5,12 +5,12 @@
   
   $detect = new Mobile_Detect();
 
-  // Include top of the document
-  html_head('home');
-  
   $mob = $detect->isMobile();
   
   if($mob || isset($_GET['m'])) {
+
+    // Include top of the document
+    html_headMobile('mobile');
   
     //load mobile interface
     echo '<body class="bodymobile">
@@ -31,13 +31,15 @@
               <div class="footer">
         			  <input class="button" type="submit" value="Tell Me!" id="send" />
               </div>
-                <div class="slider"><img src="../img/loader3.gif"></div>
+                <div class="slider"><img src="../img/loader4.gif"></div>
             </div>';
 
     //Include the bottom of the document, script & co
     html_foot('mobile', $mob, true);
   } 
   else {
+    // Include top of the document
+    html_head('home');
     //load templateUp
     html_bodyUp();
     //load templateDown

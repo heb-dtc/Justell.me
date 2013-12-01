@@ -46,11 +46,12 @@ $(document).ready( function() {
       return new google.maps.LatLng(parseFloat(latlng[0]),parseFloat(latlng[1]));
     },
     locate : function(cb,error) { 
-      if(!navigator.geolocation) {
+      cb(null);
+      /*if(!navigator.geolocation) {
         cb(null);
       } else {
         navigator.geolocation.getCurrentPosition(cb, error);
-      }
+      }*/
     },
     translate : function(msg) {
       return $.map(msg,function(item) {
@@ -87,7 +88,8 @@ $(document).ready( function() {
           { "lightness": -89 },
           { "color": "#22aaff" },
           { "weight": 0.1 },
-          { "visibility": "off" }
+          { "visibility": "off" },
+          { "image": "../img/mapMarker.png"}
         ]
       },{
         "featureType": "landscape",
@@ -129,11 +131,11 @@ $(document).ready( function() {
             100:{
               content:'<div class="info-box cluster size_100"></div>'
             }
-          },
-          options: {
-            icon: new google.maps.MarkerImage("/img/blank.png"),//new google.maps.MarkerImage("http://maps.gstatic.com/mapfiles/icon_green.png")
-            visible: true
           },*/
+          options: {
+            icon: new google.maps.MarkerImage("../img/mapMarker.png"),//new google.maps.MarkerImage("http://maps.gstatic.com/mapfiles/icon_green.png")
+            visible: true
+          },
           events:{
             mouseover:function(marker, event, context) {
               $(this).gmap3({
@@ -157,9 +159,12 @@ $(document).ready( function() {
     };
     
     jtm.locate(function(pos) {
-      makeMap(pos.coords.latitude, pos.coords.longitude);
-    },function() {
-      makeMap(45,0);
+      console.log("bla");
+      
+      if(pos!= null)
+        makeMap(pos.coords.latitude, pos.coords.longitude);
+      else
+        makeMap(45,0);
     });
   }
   

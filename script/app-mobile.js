@@ -100,7 +100,7 @@ $(document).ready( function() {
         timestamp:new Date().getTime()
       }, function(data) {
         // Bring the user to /message
-        window.location = "/message.php";
+        window.location = "/message";
       });
     },
     //-----------------------------------------------------------------------//
