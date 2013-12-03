@@ -10,7 +10,6 @@ function html_head($section) {
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
             <meta charset="utf-8">
 							<link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
-							<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_common.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />
               <link rel="icon" type="image/png" href="./favicon/fav3.png" />
@@ -27,7 +26,6 @@ function html_headMobile($section) {
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
             <meta charset="utf-8">
               <link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
-              <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
               <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_mobile.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />

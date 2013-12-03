@@ -1,5 +1,5 @@
 html { height: 100%; }
-body { height: 100%; margin: 0; padding: 0; }
+body { font-family: "Abel"; height: 100%; margin: 0; padding: 0; }
 a { color: #fff;text-decoration: none; }
 
 /* **********************  COMPUTER STYLE ********************** */
@@ -76,12 +76,11 @@ a { color: #fff;text-decoration: none; }
 .menufooter {
   position: relative;
   text-transform:uppercase;
-  margin: 5px 0px 0px 130px;
+  margin: 4px 0px 0px 130px;
   background:rgba(0,0,0,0);
 }
 
 .textmenufooter{
-  font-family: "Roboto";
   font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 1px;

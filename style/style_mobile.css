@@ -1,5 +1,5 @@
 html { height: 100%; background-size:cover; background:url('../img/bgphone3.jpg') no-repeat center center;}
-body { height: 100%; margin: 0; padding: 0; }
+body { font-family: "Abel"; height: 100%; margin: 0; padding: 0; }
 
 /* **********************  MOBILE PHONE STYLE ********************** */
 .bodymobile {
@@ -22,7 +22,6 @@ body { height: 100%; margin: 0; padding: 0; }
   border-radius: 5px;
   border-width: 3px;
   border-color: #FFFFFF;
-  font-family: "Roboto"; 
   background-color: rgba(0,0,0,0);
   color: #FFFFFF;
   display: block;
@@ -50,7 +49,6 @@ textarea:focus, input:focus{
 .headerTitle{
   text-align: center;
   color: #FFFFFF;
-  font-family: "Amatic SC";
   font-size: 1.8em;
   margin: 20px 0px 40px 0px;
 }
@@ -79,7 +77,6 @@ textarea:focus, input:focus{
   border-radius: 5px;
   border-color:#FFFFFF;
   border-width: 0px;
-  font-family: "Roboto";
   font-size:1.8em;
   margin: 0 auto;
   display: block;
