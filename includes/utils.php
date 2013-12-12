@@ -10,6 +10,7 @@ function html_head($section) {
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
             <meta charset="utf-8">
 							<link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
+              <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
               <link rel="stylesheet" href="style/style_common.css" />
               <link rel="stylesheet" href="style/style_'.$section.'.css" />
               <link rel="icon" type="image/png" href="./favicon/fav3.png" />
@@ -100,7 +101,7 @@ function html_foot($section, $mobile = false,  $map = false) {
             (function() {
               var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
               ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
             })();
           </script>
         </body>
