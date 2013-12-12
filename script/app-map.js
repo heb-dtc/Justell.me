@@ -94,8 +94,7 @@ $(document).ready( function() {
       },{
         "featureType": "landscape",
         "stylers": [
-          { "lightness": 3 },
-          { "color": "#ffffac" }
+          { "lightness": 3 }
         ]
       }];
     var mapType = google.maps.MapTypeId.TERRAIN;
@@ -111,27 +110,6 @@ $(document).ready( function() {
           }
         },marker:{
           values:jtm.translate(window.messages),
-          /*cluster:{
-            radius:10,
-            0:{
-              content:'<div class="info-box cluster size_0"></div>'
-            },
-            20:{
-              content:'<div class="info-box cluster size_20"></div>'
-            },
-            40:{
-              content:'<div class="info-box cluster size_40"></div>'
-            },
-            60:{
-              content:'<div class="info-box cluster size_60"></div>'
-            },
-            80:{
-              content:'<div class="info-box cluster size_80"></div>'
-            },
-            100:{
-              content:'<div class="info-box cluster size_100"></div>'
-            }
-          },*/
           options: {
             icon: new google.maps.MarkerImage("../img/mapMarker.png"),//new google.maps.MarkerImage("http://maps.gstatic.com/mapfiles/icon_green.png")
             visible: true

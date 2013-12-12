@@ -132,7 +132,9 @@ a { color: #fff;text-decoration: none; }
 /***********  PAGE ARTWORKS ********** */
 
 .gallery{
+  text-align: center;
   float: left;
+  width: 100%;
 }
 
 .artwork{
@@ -140,6 +142,3 @@ a { color: #fff;text-decoration: none; }
   width: 400px;
   height: 400px%;
 }
-
-
-
